@@ -1,0 +1,143 @@
+.btnSession {
+    margin: 0;
+}
+
+.nameSessionNav {
+    font-size: 16px;
+}
+
+.buttonInput {
+    width: 100px;
+}
+
+.borderIndexHeader {
+    height: 500px;
+    width: auto;
+    overflow: hidden;
+    background-position-y: center;
+    opacity: 0.9;
+    position: absolute;
+}
+
+.headerImageIndex {
+    position: absolute;
+    z-index: 11;
+}
+
+.headerImageIndex p {
+    font-family: helvetica;
+    color: #EE5656;
+    font-size: 90px;
+    position: relative;
+    left: 110px;
+    top: 30px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px grey;
+}
+
+.headerImageIndex span {
+    font-family: helvetica;
+    color: white;
+    font-size: 60px;
+    position: relative;
+    font-weight: 100;
+}
+
+.headerImageIndex h2 {
+    font-family: helvetica;
+    color: #06FFF7;
+    font-weight: bolder;
+    font-size: 90px;
+    position: relative;
+    left: 60px;
+    top: 80px;
+    text-shadow: 1px 1px 1px grey;
+}
+
+.textBottomHome h1{
+    font-family: NSimSun;
+    position: relative;
+    top: 530px;
+}
+
+.cardCatalog {
+    height: 380px;
+    overflow: hidden;
+}
+
+.textTopCatalog h1{
+    font-family: NSimSun;
+    position: relative;
+}
+
+.nameProduct a{
+    font-family: helvetica;
+    font-weight: bolder;
+    font-size: 12px;
+    color: #949494;
+}
+
+.nameProduct a:hover {
+    color: #515151;
+    text-decoration: none;
+}
+
+.nameProduct a:after {
+    content: "";
+    display: block;
+    background: #515151;
+    width: 0;
+    height: 2px;
+    transition: width .3s;
+}
+
+.nameProduct a:hover:after {
+    width: 100%;
+    transition: width .3s;
+}
+
+.priceIndexCatalog p {
+    font-family: NSimSun;
+    font-size: 14px;
+}
+
+.priceIndexCatalog p img {
+    margin-top: 2px;
+}
+
+.cardCatalogStock {
+    height: 522px;
+    width: 350px;
+    overflow: hidden;
+}
+
+.nameProductStock h1{
+    font-size: 32px;
+}
+
+.boxProductDetail {
+    height: 476px;
+}
+
+.contDetail {
+    width: 522px;
+    width: 100%;
+}
+
+.cartbox {
+    width: 90px;
+    height: 30px;
+}
+
+.Acart {
+    position: absolute;
+    z-index: 11;
+}
+
+.btnA {
+    width: 125px;
+}
+
+.btnB {
+    width: 135px;
+}
